@@ -1,0 +1,55 @@
+name: health_water
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.4.1 <4.0.0'
+
+dependencies: 
+  visibility_detector: ^0.4.0+2
+  cupertino_icons: ^1.0.6
+  get: 4.6.6
+  flutter_easyloading: ^3.0.5
+  flutter_screenutil: ^5.9.0
+  pull_to_refresh: ^2.0.0
+  cached_network_image: ^3.3.0
+  shared_preferences: ^2.2.3
+  image_picker: ^1.1.2
+  flutter_inappwebview: ^6.0.0
+  permission_handler: ^11.3.1
+  device_info_plus: ^10.1.0
+  flutter_timezone: ^1.0.8
+  dio: ^5.4.3+1
+  share_plus: ^9.0.0
+  vibration: ^1.9.0
+  package_info_plus: ^8.0.0
+
+  flutter_localizations:
+    sdk: flutter
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^3.0.0
+  flutter_test: 
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_launcher_icons:
+  image_path: "assets/images/water.png"
+  android: true
+  ios: true
+  web:
+    generate: true
+    image_path: "assets/images/water.png"
+    background_color: "#FFFFFF"
+    theme_color: "#FFFFFF"
+
+flutter_assets:
+  assets_path: assets/images/
+  output_path: lib/app/assets
